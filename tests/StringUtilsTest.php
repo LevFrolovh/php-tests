@@ -8,7 +8,7 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use StringUtils\capitalize;
+use function StringUtils\capitalize;
 
 if (StringUtils\capitalize('hello') !== 'Hello') {
     throw new Exception('Функция работает неверно!');
