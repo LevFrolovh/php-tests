@@ -10,11 +10,11 @@ if (file_exists($autoloadPath1)) {
 
 use function StringUtils\capitalize;
 
-if (StringUtils\capitalize('hello') !== 'Hello') {
+if (capitalize('hello') !== 'Hello') {
     throw new Exception('Функция работает неверно!');
 }
 
-if (StringUtils\capitalize('') !== '') {
+if (capitalize('') !== '') {
     throw new Exception('Функция работает неверно!');
 }
 
