@@ -1,0 +1,17 @@
+{
+    "name": "lev/php-tests",
+    "description": "tests",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lev\\PhpTests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alexfrolovyh@list.ru"
+        }
+    ],
+    "require": {}
+}
