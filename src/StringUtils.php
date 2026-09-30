@@ -1,5 +1,7 @@
 <?php
 
+namespace StringUtils;
+
 function capitalize(string $text): string
 {
     if ($text === '') {
