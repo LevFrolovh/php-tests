@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "Lev\\PhpTests\\": "src/"
-        }
+        },
+        "files": [
+            "src/StringUtils.php"
+        ]
     },
     "authors": [
         {
